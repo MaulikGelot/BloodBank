@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gbloodbank12">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".homeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BloodRequirementListActivity" />
+        <activity android:name=".BloodRequirementActivity" />
+        <activity android:name=".RecentBloodcampActivity" />
+        <activity android:name=".BloodCampActivity" />
+        <activity android:name=".HospitalPage" />
+        <activity android:name=".ClientPage" />
+        <activity android:name=".HospitalInfoActivity" />
+        <activity android:name=".ClientInfoActivity" />
+        <activity android:name=".HospitalListActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Registration" />
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

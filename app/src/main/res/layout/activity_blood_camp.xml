@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BloodCampActivity">
+
+    <ImageButton
+        android:id="@+id/addImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:layout_weight="1"
+        android:onClick="addImage"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="25dp"
+        android:inputType="textPersonName"
+        android:hint="Name of Organizer" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date of BloodCamp(DD/MM/YYYY)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Place" />
+
+    <Button
+        android:id="@+id/saveInfoButton"
+        android:onClick="saveInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Save BloodCamp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="45dp"/>
+
+</LinearLayout>

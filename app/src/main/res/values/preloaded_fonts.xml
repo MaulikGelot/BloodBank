@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/arizonia</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/cambo</item>
+        <item>@font/courgette</item>
+        <item>@font/mr_bedfort</item>
+        <item>@font/neuton_extralight</item>
+        <item>@font/playball</item>
+        <item>@font/roboto_slab_thin</item>
+        <item>@font/roboto_thin</item>
+        <item>@font/sree_krushnadevaraya</item>
+    </array>
+</resources>

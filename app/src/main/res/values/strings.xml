@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GBloodBank1.2</string>
+    <string name="hello_blooddonor">Hello BloodDonor</string>
+    <array name="userChoice">
+        <item>BloodDonor</item>
+        <item>Hospital</item>
+    </array>
+</resources>

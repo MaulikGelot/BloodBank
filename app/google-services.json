@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "514947550378",
+    "firebase_url": "https://gbloodbank12.firebaseio.com",
+    "project_id": "gbloodbank12",
+    "storage_bucket": "gbloodbank12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514947550378:android:5b9adef088105ac5",
+        "android_client_info": {
+          "package_name": "com.example.gbloodbank12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514947550378-8dnnlkpvt9b9ddq5006i3pso8vb4lcbh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gbloodbank12",
+            "certificate_hash": "15ee02fcd1f56ceb91d8ccc3d282112136c92d4a"
+          }
+        },
+        {
+          "client_id": "514947550378-0g8d3a0918gntptbtcubit7fgisuu35m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWzDi5yzNolb-eQQO2jqVyeKfW9sBjH_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514947550378-0g8d3a0918gntptbtcubit7fgisuu35m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/bloodDonateimageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        app:srcCompat="@drawable/blooddonate5" />
+
+    <TextView
+        android:id="@+id/signupTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="cursive"
+        android:text="Registration"
+        android:textColor="#CF000F"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter your EmailAddress"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#6C7A89"/>
+
+    <EditText
+        android:id="@+id/passwordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter the password"
+        android:inputType="textPassword"
+        android:textColorHint="#6C7A89"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="signupButtonClicked"
+        android:text="Signup" />
+
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:onClick="loginViewClicked"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:text="Already registered? Login here."
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/sendemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Send Email"
+        android:onClick="Emailsend"/>
+
+</LinearLayout>

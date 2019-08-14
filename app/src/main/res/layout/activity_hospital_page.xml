@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HospitalPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:text="Hello Hospital"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ViewFlipper
+        android:id="@+id/imageFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Blood Requirement"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="15dp"
+        android:onClick="addBloodRequirement"
+        android:background="@drawable/colorvector"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upcoming BloodCamp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:onClick="recentBloodCamp"
+        android:background="@drawable/colorvector"/>
+
+    <Button
+        android:id="@+id/addBloodCampButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add BloodCamp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:onClick="addBloodCampButtonClicked"
+        android:background="@drawable/colorvector"/>
+
+    <Button
+        android:id="@+id/signoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignOut"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:onClick="signoutButtonClicked"
+        android:background="@drawable/colorvector"/>
+
+
+</LinearLayout>
