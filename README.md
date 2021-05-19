@@ -22,9 +22,9 @@ Therefore here we are trying to bring all (hospitals, people who like to donate 
     <td>LogIn Screen</td>
   </tr>
   <tr>
-    <td><img src="https://i1.lensdump.com/i/jbchCv.jpg" width=270 height=520></td>
-    <td><img src="https://i1.lensdump.com/i/jbca22.jpg" width=270 height=520></td>
-    <td><img src="https://i1.lensdump.com/i/jbX2SC.jpg" width=270 height=520></td>
+    <td><img src="Image/s0.jpg" width=270 height=520></td>
+    <td><img src="Image/s1.jpeg" width=270 height=520></td>
+    <td><img src="Image/s2.jpg" width=270 height=520></td>
   </tr>
   <tr>
     <td>HomePage for Hospitals</td>
@@ -32,9 +32,9 @@ Therefore here we are trying to bring all (hospitals, people who like to donate 
     <td>BloodRequirement List</td>
   </tr>
   <tr>
-    <td><img src="https://i1.lensdump.com/i/jbXW1z.jpg" width=270 height=520></td>
-    <td><img src="https://i1.lensdump.com/i/jbXipT.jpg" width=270 height=520></td>
-    <td><img src="https://i1.lensdump.com/i/jbXoUT.jpg" width=270 height=520></td>
+    <td><img src="Image/s3.jpg" width=270 height=520></td>
+    <td><img src="Image/s4.jpg" width=270 height=520></td>
+    <td><img src="Image/s7.jpg" width=270 height=520></td>
   </tr>
     <tr>
     <td>HomePage for BloodDonor</td>
@@ -42,9 +42,9 @@ Therefore here we are trying to bring all (hospitals, people who like to donate 
     <td>BloodCamp Lists</td>
   </tr>
   <tr>
-    <td><img src="https://i1.lensdump.com/i/jbXY7z.jpg" width=270 height=520></td>
-    <td><img src="https://i1.lensdump.com/i/jbXMR5.jpg" width=270 height=520></td>
-    <td><img src="https://i1.lensdump.com/i/jbXDIb.jpg" width=270 height=520></td>
+    <td><img src="Image/s5.jpg" width=270 height=520></td>
+    <td><img src="Image/s6.jpg" width=270 height=520></td>
+    <td><img src="Image/s8.jpg" width=270 height=520></td>
   </tr>
  </table>
 
